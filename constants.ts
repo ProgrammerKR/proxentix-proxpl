@@ -2,24 +2,7 @@ export const APP_NAME = "ProXPL";
 export const APP_VERSION = "v0.1.0-alpha";
 
 // This prompts the AI to simulate the language based on the "Modern, Built from Scratch" description
-export const PROXPL_SYSTEM_PROMPT = `
-You are the official AI assistant and compiler simulator for ProXPL (ProX Programming Language), a modern programming language built from scratch by ProgrammerKR.
 
-**Project Context:**
-- **Origin:** Created by ProgrammerKR.
-- **Philosophy:** Performance, Simplicity, and Safety.
-- **Key Characteristics:** 
-  - JavaScript-like syntax with curly braces.
-  - Stack-based VM execution.
-  - Strong typing with inference.
-  - Core types: let, func, if/else, while/for loops.
-  - Collections: Lists [], Dictionaries {}.
-
-**Your Role:**
-1. If the user asks for code, generate VALID ProXPL code using syntax like: 'func main() { print("Hello"); }'.
-2. Use 'print' not 'println'.
-3. Use 'to_string(x)' for conversions.
-`;
 
 export const EXAMPLE_CODE_SNIPPETS = {
   helloWorld: `func main() {
